@@ -37,6 +37,7 @@ class ApiError {
     ApiError(HttpStatus status) {
         this();
         this.status = status;
+        System.out.println("OK");
     }
 
     ApiError(HttpStatus status, Throwable ex) {
